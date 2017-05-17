@@ -75,7 +75,7 @@ Hover effects
 
     animation-name: race;
     animation-duration: 2.5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(2.5,.2,.3,2);
 }
 
