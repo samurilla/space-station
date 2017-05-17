@@ -30,6 +30,7 @@ Select all squares in the array
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
+    transition: transform .5s ease-in-out;
 }
 
 /*----------------------------------------
@@ -76,14 +77,14 @@ Hover effects
     background: #13b4ff;
 }
 
-.square:nth-child(2):hover {
+.squares:nth-child(2):hover {
     background: #d861af;
 }
 
-.square:nth-child(3):hover {
+.squares:nth-child(3):hover {
     background: #81205f;
 }
 
-.square:nth-child(4):hover {
+.squares:nth-child(4):hover {
     background: #77b800;
 }
